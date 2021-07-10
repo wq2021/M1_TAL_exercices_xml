@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="application/xml" href="style-ex16.xsl"?>
+<page>
+	<head>
+		<titre>Accueil</titre>
+		<titre>Exercice 1</titre>
+		<titre>Exercice 3</titre>
+		<titre>Exercice 4</titre>
+		<titre>Exercice 7</titre>
+		<titre>Exercice 13</titre>
+		<titre>Exercice 14</titre>
+		<titre>Exercice 16</titre>
+	</head>
+	<corps>
+		<theme>Documents Structurés</theme>
+		<description>Master 1 TAL 2019/2020</description>
+		<exercice>Exercice 16 : Un dictionnaire</exercice>
+		<consigne>
+			<partie1><titre>Requête XPath simple</titre>
+			<p1>1. Compter le nombre d’entrée du dictionnaire</p1>
+			<p2>2. Compter les différents types de catégories disponibles dans le fichier </p2>
+			</partie1>
+
+			<partie2><titre>Feuille de styles XSLT</titre>
+			<p1>1. Construire une feuille de styles XSLT pour extraire les 200 éléments entry à partir du 2000ième (les éléments 2001 à 2200). En sortie : un fichier XML avec le contenu initial complet des entry visées.</p1>
+			<p2>2. Construire une feuille de style permettant d'extraire une liste de toutes les formes de tous les verbes du dictionnaire. En sortie un fichier TXT.</p2>
+			</partie2>
+
+			<partie3><titre>Requête XQuery</titre>
+			<p>1. Compter le nombre de verbes, de noms etc.</p>
+			</partie3>
+		</consigne>
+		<reponse></reponse>
+	</corps>
+
+</page>

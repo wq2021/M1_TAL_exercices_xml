@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="application/xml" href="style-ex14.xsl"?>
+<page>
+	<head>
+		<titre>Accueil</titre>
+		<titre>Exercice 1</titre>
+		<titre>Exercice 3</titre>
+		<titre>Exercice 4</titre>
+		<titre>Exercice 7</titre>
+		<titre>Exercice 13</titre>
+		<titre>Exercice 14</titre>
+		<titre>Exercice 16</titre>
+	</head>
+	<corps>
+		<theme>Documents Structurés</theme>
+		<description>Master 1 TAL 2019/2020</description>
+		<exercice>Exercice 14 : Patrons morphosyntaxiques / Relations de dépendance sur le Base TrameurFromRhapsodie</exercice>
+		<descriptif>Descriptif et sources des annotations : Annotations Rhapsodie pour le Trameur. Ce document contient la présentation du processus de transcodage des annotations Rhapsodie pour construire une base textométrique et des différents processus de traitements des annotations de dépendance avec Le Trameur.
+		</descriptif>
+		<schema>La base est au format XML et son schéma d’organisation des données et le suivant :</schema>
+		<consigne>
+		<partie1>
+			<titre>XSLT</titre>
+			<p1>1. Construire une feuille de styles pour afficher uniquement le texte (sortie TXT)</p1>
+			<p2>2. Construire une feuille de styles pour afficher (au format HTML) le texte en insérant sur
+			chaque item sa POS</p2>
+			<p3>3. Construire une feuille de styles pour extraire (en format TXT) au moins 2 patrons morpho-
+			syntaxiques de longueurs différentes</p3>
+			<p4>4. Construire une feuille de styles pour extraire (au format TXT) les items en relation de
+			dépendance syntaxique de type OBJ (les classer et les compter)</p4>
+			<p5>5. Construire une feuille de styles pour extraire la liste des POS en relation de dépendance
+			syntaxique de type OBJ (les classer et les compter)</p5>
+		</partie1>	
+		<partie2>
+			<titre>XQuery</titre>
+			<p1>1. Construire une requête pour extraire les items portant une relation de dépendance syntaxique de type SUB</p1>
+			<p2>2. Construire une requête pour extraire les items en relation de dépendance syntaxique de type SUB (on affichera les formes ou les lemmes connectés par cette relation)</p2>
+		</partie2>
+		</consigne>
+
+		<reponse></reponse>
+	</corps>
+</page>

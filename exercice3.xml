@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="application/xml" href="style-ex3.xsl"?>
+<page>
+	<head>
+		<titre>Accueil</titre>
+		<titre>Exercice 1</titre>
+		<titre>Exercice 3</titre>
+		<titre>Exercice 4</titre>
+		<titre>Exercice 9</titre>
+		<titre>Exercice 13</titre>
+		<titre>Exercice 14</titre>
+		<titre>Exercice 16</titre>
+	</head>
+	<corps>
+		<theme>Documents Structurés</theme>
+		<description>Master 1 TAL 2019/2020</description>
+		<exercice>Exercice 3: TEI - L'aube de Romain Rolland</exercice>
+		<consigne>Le but de cet exercice est d’enrichir un fichier XML/TEI existant avec des informations morpho-syntactiques.</consigne>
+		<reponse>
+			<p1>Chaîne de traitement</p1>
+			<p2>J’ai suivi principalement la chaîne de traitement proposée par Mme. Galleron, parce que cette proposition est explicite et efficace en tant que la guide de mon travail. Le traitement peut être divisé par 5 étapes en général:</p2>
+			<p3>- Créer le nouveau fichier de texte en éliminant les balises du fichier originel en XML. Il est à noter que la suppression du texte du header est nécessaire après l’enlèvement des balises, sinon ces métadonnées seront mélangées avec le contenu du texte dans le traitement suivant.</p3>
+			<p4>- Générer le fichier CoNLL-U (conllu) par UDPipe et le transformer en fichier csv.</p4>
+			<p5>- Nettoyer le fichier csv avec LibreOffice grâce aux expressions régulières (j’ai essayé OpenOffice mais il fonctionne moins bien sur ma machine, peut-être c'est à cause du système MacOS). L’idée principale est que nous devons supprimer des contenus moins utiles en gardant les informations importantes comme le numéro de phrase, les tokens, lemmas, pos, msd des phrases, etc. Ensuite, nous marquons ces informations avec les balises.</p5>
+			<p6>- Transformer le fichier csv en xml et nettoyer le fichier xml dans un éditeur de texte (j’ai utilisé Sublime Text). Dans cette étape-là, on se focalise à supprimer les espaces
+			« blancs » comme les lignes vides, les retours à la ligne, les tabulations, etc. </p6>
+			<p7>- Travailler sous Oxygen. L’Oxygen examine s’il comporte des erreurs dans le fichier XML qu’on vient de produire, après on ajoute le header du fichier, et aussi les balises
+			correspondantes aux chapitres dans le fichier original.</p7>
+		</reponse>
+	</corps>
+
+</page>

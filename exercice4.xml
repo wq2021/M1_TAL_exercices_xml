@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="application/xml" href="style-ex4.xsl"?>
+<page>
+	<head>
+		<titre>Accueil</titre>
+		<titre>Exercice 1</titre>
+		<titre>Exercice 3</titre>
+		<titre>Exercice 4</titre>
+		<titre>Exercice 9</titre>
+		<titre>Exercice 13</titre>
+		<titre>Exercice 14</titre>
+		<titre>Exercice 16</titre>
+	</head>
+	<corps>
+		<theme>Documents Structurés</theme>
+		<description>Master 1 TAL 2019/2020</description>
+		<exercice>Exercice 4 : Funeral Blues...</exercice>
+		<consigne>
+		<p1>Le texte FuneralBlues.xml contient un poème de W. H. Auden (1907-1973). Il est extrait en l'occurrence d'un recueil, Tell Me the Truth about Love, ten poems by W. H. Auden, publié en 1976 par Vintage Books, New York. Il est codé en XML en utilisant les conventions de la TEI.</p1>
+		<p2>- Définir donc une feuille de style (appelée TEI2TablePremiersVers.xsl) qui, sur des textes respectant la proposition TEI, extraie le nom de l'auteur, du recueil, et le premier vers de chaque poème. Dans la feuille de style, dont le résultat est un document HTML, commenter en XML le fonctionnement global et les règles qui le nécessitent.</p2>
+		<p3>- Définir une feuille de style (appelée NombreVers.xsl) dont le résultat est un document HTML qui affiche le nombre de vers du poème.</p3>
+		</consigne>
+		<reponse></reponse>
+	</corps>
+
+</page>

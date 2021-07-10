@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eau>
+<bouteille>
+	<marque>Cristalline</marque>
+	<quantité>150cl</quantité>
+	<source>
+		<ville>St-Cyr la Source</ville>
+		<département>Loiret</département>
+	</source>
+	<codebarre>3274080005003</codebarre>
+	<ionstotaux>
+		<ions type = "positif">
+			<nom>calcium</nom>
+			<quantité unité = "mg/L">71</quantité>	
+		</ions>
+		<ions type = "positif">
+			<nom>magnésium</nom>
+			<quantité unité = "mg/L">5,5</quantité>		
+		</ions>
+		<ions type = "négatif">
+			<nom>chlorure</nom>
+			<quantité unité = "mg/L">20</quantité>	
+		</ions>
+		<ions type = "négatif">
+			<nom>nitrate</nom>
+			<quantité unité = "mg/L">1</quantité>		
+		</ions>
+	</ionstotaux>
+	<particule>
+		<nom>fer</nom>
+		<état>présence</état>
+	</particule>
+	<PH>7,45</PH>
+</bouteille>
+
+<bouteille>
+	<marque>Cristalline</marque>
+	<quantité>50cl</quantité>
+	<source>
+		<ville>Aurèle</ville>
+		<département>Alpes Maritimes</département>
+	</source>
+	<codebarre>3268840001008</codebarre>
+	<ionstotaux>
+		<ions type = "positif">
+			<nom>calcium</nom>
+			<quantité unité = "mg/L">98</quantité>	
+		</ions>
+		<ions type = "positif">
+			<nom>magnésium</nom>
+			<quantité unité = "mg/L">4</quantité>		
+		</ions>
+		<ions type = "négatif">
+			<nom>chlorure</nom>
+			<quantité unité = "mg/L">3,6</quantité>	
+		</ions>
+		<ions type = "négatif">
+			<nom>nitrate</nom>
+			<quantité unité = "mg/L">2</quantité>		
+		</ions>
+	</ionstotaux>
+	<PH>7,4</PH>
+</bouteille>
+
+<bouteille>
+	<marque>Volvic</marque>
+	<quantité>50cl</quantité>
+	<source>
+		<ville>Volvic</ville>
+		<département>Puy-de-Dôme</département>
+	</source>
+	<codebarre>3057640117008</codebarre>
+	<ionstotaux>
+		<ions type = "positif">
+			<nom>calcium</nom>
+			<quantité unité = "mg/L">11,5</quantité>	
+		</ions>
+		<ions type = "positif">
+			<nom>magnésium</nom>
+			<quantité unité = "mg/L">8</quantité>		
+		</ions>
+		<ions type = "négatif">
+			<nom>chlorure</nom>
+			<quantité unité = "mg/L">13,5</quantité>	
+		</ions>
+		<ions type = "négatif">
+			<nom>nitrate</nom>
+			<quantité unité = "mg/L">6,5</quantité>		
+		</ions>
+	</ionstotaux>
+	<particule>
+		<nom>silice</nom>
+		<état>présence</état>
+	</particule>
+	<PH>7</PH>
+</bouteille>
+</eau>

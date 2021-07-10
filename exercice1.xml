@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="application/xml" href="style-ex1.xsl"?>
+<page>
+	<head>
+		<titre>Accueil</titre>
+		<titre>Exercice 1</titre>
+		<titre>Exercice 3</titre>
+		<titre>Exercice 4</titre>
+		<titre>Exercice 7</titre>
+		<titre>Exercice 13</titre>
+		<titre>Exercice 14</titre>
+		<titre>Exercice 16</titre>
+	</head>
+	<corps>
+		<theme>Documents Structurés</theme>
+		<description>Master 1 TAL 2019/2020</description>
+		<exercice>Exercice 1: Structurer l’information</exercice>
+		<consigne>Réorganisez-la de manière à mettre en évidence sa structure logique, sans forcément passer par une mise en forme XML.</consigne>
+		<reponse>Je propose un tableau pour structurer les informations ci-dessus.</reponse>
+	</corps>
+
+</page>
